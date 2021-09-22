@@ -12,21 +12,21 @@ First we must determine the launch month of each campaign, for this we create a 
 
 Then a pivot table is built that filters the successful, failed and canceled campaigns per month. To obtain the filter by month it is necessary to eliminate the filters by year and semester.
 
-![](https://myoctocat.com/assets/images/base-octocat.svg)
+![](https://github.com/Jponce25/Module-1-Challenge/blob/a1f84f19e4acef3ab29e21b3fe201e3de324b119/AnalysisLaunchDate1.png)
 
 For this exercise it is required to filter the category "theater", at first glance it can be seen that May and June are the months where more than half of the projects were satisfactory even there are the months with most projects. It is also observed that in general the month with the fewest projects was December.
 
-![](https://myoctocat.com/assets/images/base-octocat.svg)
+![](https://github.com/Jponce25/Module-1-Challenge/blob/a1f84f19e4acef3ab29e21b3fe201e3de324b119/Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
 
 For the second analysis based on goals, we first define the ranges in which we will group the campaigns based on their goal ammount. Then we count using the `COUNTIFS ()` function the number of successful, failed and canceled projects, we also filter the subcategory by "plays". To make the data easier to read, we calculate the percentages of successful, failed, or canceled projects.
 
-![](https://myoctocat.com/assets/images/base-octocat.svg)
+![](https://github.com/Jponce25/Module-1-Challenge/blob/a1f84f19e4acef3ab29e21b3fe201e3de324b119/AnalysisGoals1.png)
 
 The projects with the highest percentage of success are those with goals less than 4,999, and a percentage of 100% of failure for goals between 45000 to 49999. It can also be identified that for the subcategory "plays" there are no canceled projects. 
 
-![](https://myoctocat.com/assets/images/base-octocat.svg)
+![](https://github.com/Jponce25/Module-1-Challenge/blob/a1f84f19e4acef3ab29e21b3fe201e3de324b119/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
 
