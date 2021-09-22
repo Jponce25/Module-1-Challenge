@@ -2,7 +2,7 @@
 
 ## Overview of Project
 
-We have a dataset of past Kickstarter campaigns with a total of 4115 rows, we want to analyze how similar Luise´s campaigns performed, for this analisys we have to look the Goal column refers to the amount of money each campaign needs, while the launch date column refers to the start date of the campaign. We want to know how the different campaigns fared in relation to their launch dates and their founding goals. 
+We have a dataset of past Kickstarter campaigns with a total of 4115 rows, we want to analyze how similar Luise´s campaigns performed in relation to the launch date and the goal objective, for this analisys we have to look the Goal column refers to the amount of money each campaign needs, while the launch date column refers to the start date of the campaign. We want to know how the different campaigns fared in relation to their launch dates and their founding goals. 
 
 ## Analysis and Challenges
 
